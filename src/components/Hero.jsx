@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[180px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -16,11 +16,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-          <span className='xs:text-base sm:text-4xl'>Hi, I'm</span> <span className='text-[#915EFF]'>Jibin Babu</span>
+          <span className='xs:text-4xl sm:text-6xl'>Hi 👋</span> 
+          <div>
+          <span>I'm</span> <span className='text-[#915EFF]'>Jibin Babu</span>
+          </div>
+          
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Angular Web Developer with a passion for<br className='sm:block hidden' /> crafting seamless user interfaces and 
-          <br className='sm:block hidden' />scalable web applications. 
+          Angular Web Developer with a passion for crafting seamless user interfaces and 
+          scalable web applications. 
           
           </p>
         </div>

@@ -1,0 +1,4 @@
+//deploy changes
+
+npm run build
+npm run deploy
