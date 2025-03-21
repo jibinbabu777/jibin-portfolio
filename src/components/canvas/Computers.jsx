@@ -70,7 +70,7 @@ const ComputersCanvas = () => {
         />
         <Computers isMobile={isMobile} />
       </Suspense>
-// The Preload component from drei library allows you to preload assets before rendering the scene.
+//The Preload component from drei library allows you to preload assets before rendering the scene.
       <Preload all />
     </Canvas>
   );
