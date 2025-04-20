@@ -30,11 +30,9 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
-
-      {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+      {/* <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -44,10 +42,14 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>
+      </div>
+
+      <div className="absolute right-0 bottom-0 w-full h-full opacity-50 md:opacity-100">
+        <ComputersCanvas />
       </div> */}
     </section>
   );

@@ -7,23 +7,9 @@ import {
   tailwind,
   nodejs,
   figma,
-
 } from "../assets";
-
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
+import { projects } from "./projects";
+import { navLinks } from "./navLinks";
 
 const services = [
   {
@@ -59,8 +45,6 @@ const services = [
     icon: tailwind,
   },
 ];
-
-
 
 const experiences = [
   {
@@ -101,8 +85,4 @@ const experiences = [
   },
 ];
 
-
-
-
-
-export { services,experiences };
+export { services, experiences, projects, navLinks }; 

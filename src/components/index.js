@@ -5,6 +5,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Projects from "./Projects";
 
 
 export {
@@ -17,5 +18,6 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Projects
 };
